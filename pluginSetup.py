@@ -4,6 +4,7 @@ import config
 import urllib3
 from requests.auth import HTTPBasicAuth
 
+#Sample App File Paths
 APP_FILE_PATH = 'H:\\Jira\\PluginList\\jira-slack-server-integration-plugin-3.0.1.jar'
 APP_FILE_PATH_TWO = 'H:\\Jira\\PluginList\\automation-for-jira-lite-8.0.2.jar'
 APP_FILE_PATH_THREE = 'H:\\Jira\\PluginList\\confluence-markdown-macro-1.6.12.jar'
@@ -11,7 +12,7 @@ APP_FILE_PATH_FOUR = 'H:\\Jira\\PluginList\\microsoft-teams-2021.12.85.jar'
 APP_FILE_PATH_FIVE = 'H:\\Jira\\PluginList\\rest-api-browser-3.2.3.jar'
 testDownload = [APP_FILE_PATH, APP_FILE_PATH_TWO, APP_FILE_PATH_THREE, APP_FILE_PATH_FOUR, APP_FILE_PATH_FIVE]
 
-jira_EDN = 'https://jira-dev.edn.entds.ngisn.com' #Domain for EDN Dev JIRA
+jira_EDN = '' #Domain for a JIRA server
 plugin_list_endpoint = '/rest/plugins/latest/'
 
 list_of_plugins = []
